@@ -19,7 +19,15 @@ def contact():
 
 @app.route("/post")
 def post():
-    return render_template("post.html")
+    return render_template("posts/post1.html")
+
+@app.route("/post/post1")
+def post1():
+    return render_template("posts/post1.html")
+
+@app.route("/post/post2")
+def post2():
+    return render_template("posts/post2.html")
 
 
 app.run(debug=True)
