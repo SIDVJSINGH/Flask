@@ -21,11 +21,11 @@ def contact():
 def post():
     return render_template("posts/post1.html")
 
-@app.route("/post/post1")
+@app.route("/post1")
 def post1():
     return render_template("posts/post1.html")
 
-@app.route("/post/post2")
+@app.route("/post2")
 def post2():
     return render_template("posts/post2.html")
 
