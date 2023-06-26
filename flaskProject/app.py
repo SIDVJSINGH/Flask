@@ -6,7 +6,7 @@ from datetime import datetime
 # create the app
 app = Flask(__name__)
 # configure the SQLite database, relative to the app instance folder
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///404 found coders"  # username is "root" for xampp by default and password is "" nothing
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///404_found.db"
 # create the extension and initialize it
 db = SQLAlchemy(app)
 
