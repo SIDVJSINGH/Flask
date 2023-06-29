@@ -64,4 +64,5 @@ def contact():
     return render_template("contact.html")
 
 
-app.run(debug=True)
+if __name__ == "__main_":
+    app.run(debug=True, port=8080)
